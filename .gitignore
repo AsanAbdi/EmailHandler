@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+*.cache
+*.egg-info/
+dist/
+build/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Database files
+*.sqlite3
+
+# Alembic migrations
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# Static files (если есть)
+staticfiles/
+media/
+
+# Logs
+logs/
+*.log
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# VSCode settings folder
+.vscode/
+
+# Other
+.DS_Store
